@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* The start of the Header Up*/
+
+.hd-up {
+  background-color: black;
+}
+
+.first-cont {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-part {
+  display: flex;
+}
+.first-part p {
+  margin-top: 1rem;
+}
+.first-part i {
+  margin: 0 10px;
+}
+
+.icon i {
+  margin-right: 5px;
+}
+
+/* test */
+
+.test2 i:hover {
+  cursor: pointer;
+}
+.test2 i {
+  display: none;
+}
+
+.up-left i {
+  margin: 0 15px;
+  font-size: 13px;
+  color: #4d9ed0;
+}
+.up-right i {
+  margin: 0 15px;
+  font-size: 13px;
+  color: #4d9ed0;
+}
+/* The end of the Header Up*/
+
+/* The start of the Section One */
+.bg {
+  background-image: url(/png/slider3.jpg);
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+}
+.welcome {
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+}
+.relax {
+  font-size: 20px;
+}
+.link1 {
+  margin-right: 20px;
+  margin-top: 50px;
+  background-color: #4d9ed0;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  color: #fff;
+}
+.link1 a {
+  color: #fff;
+}
+.link1:hover {
+  background-color: #81aeca;
+  color: #fff;
+}
+.link2 {
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  color: #000;
+}
+.link2 a {
+  color: #000;
+}
+.link2:hover a {
+  color: #fff;
+}
+.link2:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* The end of the Section One */
+
+/* The start of the Section Two */
+
+.my-container {
+  padding-left: 150px;
+}
+.left-text {
+  margin-right: 20px;
+}
+.left-text,
+.right-img {
+  width: 50%;
+}
+.left-text h3 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.left-text h4 {
+  color: #4d9ed0;
+}
+.left-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.left-text a {
+  text-decoration: none;
+  background-color: #4d9ed0;
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+}
+
+.right-img {
+  position: relative;
+  background: url(/png/calltoaction-backgroundimage.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-img img {
+  width: 450px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* The end of the Section Two */
+
+/* The start of the Section Three */
+#section-three {
+  padding: 7rem 0;
+  background-color: #f8f9f9;
+}
+.box img {
+  width: 100%;
+}
+
+.text-bottom {
+  margin: 20px 0;
+}
+.text-bottom h5 {
+  font-weight: 1;
+}
+.text-bottom p {
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+}
+.text-bottom a {
+  text-decoration: none;
+  font-size: 12px;
+}
+/* The end of the Section Three */
+
+/* The start of the Section Four */
+
+.box1 a {
+  color: #000;
+  margin-bottom: 50px;
+}
+.box1 a:hover {
+  color: #4d9ed0;
+  text-decoration: none;
+}
+.img-bottom img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/* The end of the Section Four */
+
+/* The start of the Section Five */
+#section-five {
+  background-color: #4d9ed0;
+}
+.our-col {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.our-ul {
+  display: flex;
+  width: 100%;
+}
+.our-ul li {
+  list-style: none;
+  padding: 0 2px;
+}
+#section-five {
+  padding: 20px 0;
+}
+.our-aye ul a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 12px;
+}
+
+.our-fleet {
+  font-size: 35px;
+  margin-right: 25px;
+}
+.left-side i {
+  margin-right: 20px;
+}
+.right-side li {
+  list-style: none;
+}
+.right-side li button {
+  color: #fff;
+}
+
+.right-side span {
+  color: #fff;
+}
+.right-side li button:first-child {
+  color: #000;
+}
+.right-side button {
+  border: none;
+  outline: navajowhite;
+  background-color: transparent;
+}
+.right-side button:hover {
+  color: #000;
+}
+/* The end of the Section Five */
+
+/* The start of the Section Six */
+#section-six {
+  background: url(/png/statement-limo.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.texts {
+  width: 60%;
+}
+.texts h1 {
+  color: #fff;
+}
+.texts p {
+  color: rgb(110, 110, 110);
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+.texts a {
+  padding: 1rem 3rem;
+  background-color: #4d9ed0;
+  border-radius: 5px;
+}
+/* The end of the Section Six */
+
+/* The start of the Section Seven */
+.boxx i {
+  color: #4d9ed0;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.boxx h3 {
+  margin-bottom: 20px;
+}
+.boxx p {
+  color: #898989;
+  font-size: 13px;
+}
+.boxx a {
+  text-decoration: none;
+  font-size: 13px;
+}
+.boxx1 {
+  margin-top: 50px;
+}
+.boxx1 i {
+  color: #4d9ed0;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.boxx1 h3 {
+  margin-bottom: 20px;
+}
+.boxx1 p {
+  color: #898989;
+  font-size: 13px;
+}
+.boxx1 a {
+  text-decoration: none;
+  font-size: 13px;
+}
+/* The end of the Section Seven */
+
+/* The start of the Section Nine */
+.tp h3 {
+  font-weight: 1;
+  letter-spacing: 5px;
+}
+.arrows i {
+  background-color: #4d9ed0;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.arrows .one {
+  border-radius: 5px 0 0 5px;
+}
+.arrows .two {
+  border-radius: 0 5px 5px 0;
+}
+/* The end of the Section Nine */
